@@ -7,4 +7,3 @@ def no_c(my_string):
         copy_string = copy_string + my_string[i]
     my_string = copy_string
     return my_string
-    
