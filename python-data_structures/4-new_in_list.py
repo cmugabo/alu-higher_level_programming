@@ -1,10 +1,8 @@
-#!/usr/bin/python3
-def new_in_list(my_list, idx, element):
-    new_list = my_list.copy()
-    if (idx < 0):
-        return new_list
-    elif(idx >= len(my_list)):
-        return new_list
-    else:
-        new_list[idx] = element
-        return 
+ #!/usr/bin/python3
+def print_matrix_integer(matrix=[[]]):
+    for i in matrix:
+        for j in range(len(i)):
+            print("{:d}".format(i[j]), end="")
+            if j < len(i) - 1:
+                print(" ", end="")
+        print("")
