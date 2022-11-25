@@ -9,3 +9,4 @@ if __name__ == '__main__':
         print('\t- type: {}'.format(type(file_1)))
         print('\t- content: {}'.format(file_1))
         print('\t- utf8 content: {}'.format(file_1.decode("utf-8")))
+d
