@@ -13,7 +13,7 @@ checking use of module documentation:
 	>>> len(count) > 1
 	True
 
-checking function documentation:
+checking  documentation:
 	>>> count = __import__("0-add_integer").add_integer.__doc__
 	>>> len(count) > 1
 	True
