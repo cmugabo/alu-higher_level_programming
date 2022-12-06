@@ -5,7 +5,7 @@
 """
 
 
-def add_integer(a=0, b=98):
+def sum_integer(a=0, b=98):
     """ function adds integers """
     if type(a) is not int and type(a) is not float:
         raise TypeError("a must be an integer")
