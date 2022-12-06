@@ -2,7 +2,7 @@ The ``0-add_integer.py`` module
  
 
 Using ``add_integer`` function
------------------------------
+ 
 
 
 importing the function from the module:
